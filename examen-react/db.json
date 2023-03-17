@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "antoine.clain",
+      "pwd": "azerty"
+    },
+    {
+      "id": 2,
+      "login": "azerty",
+      "pwd": "azerty"
+    }
+  ],
+  "cols": [
+    {
+      "id": 1,
+      "title": "A apprendre"
+    },
+    {
+      "id": 2,
+      "title": "Je sais un peu"
+    },
+    {
+      "id": 3,
+      "title": "Je sais bien"
+    },
+    {
+      "id": 4,
+      "title": "Je sais parfaitement"
+    }
+  ],
+  "terms": [
+    {
+      "id": 1,
+      "title": "Angular"
+    },
+    {
+      "id": 2,
+      "title": "React"
+    },
+    {
+      "id": 3,
+      "title": "Java"
+    },
+    {
+      "title": "AZezrr",
+      "id": 4
+    },
+    {
+      "title": "Python",
+      "id": 5
+    },
+    {
+      "title": "Php",
+      "id": 6
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "question": "Que signifie le ngOnInit ?",
+      "answer": "Sert à monter le composant",
+      "termId": 1,
+      "colId": 3
+    }
+  ]
+}
