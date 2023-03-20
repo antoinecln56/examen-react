@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "title": "React"
+      "title": "ReactJs"
     },
     {
       "id": 3,
@@ -49,10 +49,6 @@
     {
       "title": "Python",
       "id": 5
-    },
-    {
-      "title": "Php",
-      "id": 6
     }
   ],
   "cards": [
@@ -62,6 +58,20 @@
       "answer": "Sert à monter le composant",
       "termId": 1,
       "colId": 3
+    },
+    {
+      "question": "aaa",
+      "answer": "bbb",
+      "termId": 1,
+      "colId": 1,
+      "id": 5
+    },
+    {
+      "question": "aaaa",
+      "answer": "aaaa",
+      "termId": 1,
+      "colId": 1,
+      "id": 6
     }
   ]
 }

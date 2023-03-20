@@ -1,19 +1,33 @@
 import React from 'react';
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
 
-const CardFormAdd = () => {
+
+const CardFormAdd = ({ onSubmitAddCard, onChangeQuestion, onChangeAnswer, question, answer  }) => {
     return (
         <div>
-            <Modal className='modal-dialog modal-lg'>
-                <div className='modal-content'>
-                    <header className='d-flex justify-content-between modal-header'>
-                        <h4 className='modal-title h4'>Gérer la card</h4>
-                    </header>
+            <form onSubmit={(e) => { onSubmitAddCard(e) }}>
+                <div className="form-group">
+                    <label htmlFor="question">Carte</label>
+                    <input
+                        type="text"
+                        className="form-control"
+                        id="question"
+                        value={question}
+                        onChange={(e) => { onChangeQuestion(e.target.value) }}
+                    />
+                    <input
+                        type="text"
+                        className="form-control"
+                        id="answer"
+                        value={answer}
+                        onChange={(e) => { onChangeAnswer(e.target.value) }}
+                    />
                 </div>
-            </Modal>
+                <button type="submit" className="btn btn-primary">
+                    Ajouter
+                </button>
+            </form>
         </div>
     );
 };
 
-export default CardFormAdd;
+export default CardFormAdd; 

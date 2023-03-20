@@ -47,7 +47,7 @@ export function updateTerm(term) {
 			'Accept': 'application/json',
 			'Content-Type': 'application/json'
 		},
-		body: JSON.stringify(term)
+		body: JSON.stringify({id : term.id, title: term.title})
 		})
 		.catch(error => console.log("Error: ", error));
 }
